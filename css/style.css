@@ -106,6 +106,76 @@ border:none;
 padding:16px;
 color:#fff;
 }
+
+/*choice section starts*/
+.choice-container{
+  max-width: 81%;
+  margin:100px auto;
+}
+.choice-container .choice-container-title{
+  color: #131318;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.choice-container .choice-container-description{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 162.5% */
+margin-top: 24px;
+margin-bottom: 48px;
+}
+.choice-option-container{
+  display:flex;
+  max-width: 81%;
+  margin:0 auto;
+  gap:24px;
+}
+.choice-option-container .hotel-type{
+  border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+max-width: 33%;
+max-height: 100%;
+padding:32px;
+}
+.choice-option-container .service-type{
+  border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+max-width: 33%;
+max-height: 100%;
+padding:32px;
+}
+.choice-option-container .best-price{
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+max-width: 33%;
+max-height: 100%;
+padding:32px;
+}
+.choice-option-container .option-title{
+  color: #131318;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 15px;
+}
+.choice-option-container .option-des{
+  color: #5A5A5D;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
 /*popular tour section starts here*/
 .btn-primary{
   color:#fff;
@@ -227,7 +297,7 @@ background: #FF5400;
 max-width: 22.5%;
 padding:10px 15px;
 transform: rotate(-19.628deg);
-top:1490px;
+top:2160px;
 left:915px;
 }
 .image-container .travel{
